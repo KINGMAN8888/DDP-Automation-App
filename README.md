@@ -8,7 +8,7 @@
 
 <hr />
 
-## 📖 Overview
+## Overview
 
 The **DDP Medical Portal Automation** suite streamlines the repetitive process of entering medical orders from Google Sheets directly into the DDP Medical Portal. 
 
@@ -16,20 +16,20 @@ What began as a command-line utility has now evolved into a **fully featured Des
 
 ---
 
-## ✨ Features
+## Features
 
-- 🖥️ **Modern Desktop GUI:** Built with `CustomTkinter` and multi-threading, providing a beautiful dark-mode interface, real-time logging terminal, and interactive controls without browser locking.
-- ⚙️ **Dynamic Settings Engine:** Manage your `DDP Username`, `Password`, `Google Sheet URLs`, and `Credentials.json` securely from within the app, saving directly to `.env`.
-- 📊 **Google Sheets Integration:** Automatically fetches pending orders (SNS & VN types) and intelligently updates row statuses and colors upon completion or failure.
-- 🤖 **Advanced Acumatica Automation:**
+- **Modern Desktop GUI:** Built with `CustomTkinter` and multi-threading, providing a beautiful dark-mode interface, real-time logging terminal, and interactive controls without browser locking.
+- **Dynamic Settings Engine:** Manage your `DDP Username`, `Password`, `Google Sheet URLs`, and `Credentials.json` securely from within the app, saving directly to `.env`.
+- **Google Sheets Integration:** Automatically fetches pending orders (SNS & VN types) and intelligently updates row statuses and colors upon completion or failure.
+- **Advanced Acumatica Automation:**
   - Robust product code searching and cart management.
   - Smart JS fallbacks to bypass blocking overlays and stale elements.
   - Intelligent Location Selection: Automatically retrieves or cleanly adds new patient shipping locations.
-- 🧑‍💻 **Human-in-the-Loop Validation:** The bot automatically pauses at the final Checkout stage. A glowing button prompts the user to manually verify and submit the order before the script finalizes the backend sheets.
+- **Human-in-the-Loop Validation:** The bot automatically pauses at the final Checkout stage. A glowing button prompts the user to manually verify and submit the order before the script finalizes the backend sheets.
 
 ---
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
 ### 1. Prerequisites
 - **Python 3.8+**
@@ -58,7 +58,7 @@ After the build completes, your application will be available in the `dist` fold
 
 ---
 
-## 💻 Usage Guide
+## Usage Guide
 
 ### Desktop Interface (Recommended)
 1. Launch `DDP_RPA_Bot.exe`.
@@ -80,7 +80,7 @@ python main.py --vn
 
 ---
 
-## 📁 Architecture Overview
+## Architecture Overview
 
 - `gui.py` — The professional graphical frontend and threaded execution manager.
 - `main.py` — The core orchestrator managing standard order loops and callbacks.
